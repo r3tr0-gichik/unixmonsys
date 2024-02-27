@@ -5,3 +5,5 @@ python -m venv venv\
 source venv/bin/activate\
 pip install -r requirements.txt\
 python mon.py
+# FIX NEOFETCH
+just add # in front of bash('neofetch')
