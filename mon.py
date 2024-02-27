@@ -44,7 +44,7 @@ def main():
             bash('clear')
             bash('echo "MONITORING UR SYSTEM\n"')
             monitor()
-            bash('neofetch')
+            bash('neofetch') # if u dont have  neofetch installed, just add # in front of that line
             time.sleep(1)
 
     except (KeyboardInterrupt, SystemExit):
